@@ -25,7 +25,7 @@ public class Customer {
 
     public Customer(String name, com.ironhack.EnterpriseJavaDevelopment_3_04.model.Status status, int mileage) {
         this.name = name;
-        status = status;
+        this.status = status;
         this.mileage = mileage;
     }
 

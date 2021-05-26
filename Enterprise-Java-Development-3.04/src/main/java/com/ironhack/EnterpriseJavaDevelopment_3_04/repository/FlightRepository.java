@@ -8,7 +8,6 @@ import java.util.List;
 
 @Repository
 public interface FlightRepository extends JpaRepository<Flight,String> {
-//    Flight findByNumber(String dd);
-//
-//    List<Flight> findAllByMileageGreaterThan(int i);
+    Flight findByNumber(String number);
+    List<Flight> findAllByMileageGreaterThan(Long i);
 }
